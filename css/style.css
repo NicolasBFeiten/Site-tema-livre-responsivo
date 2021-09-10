@@ -1,0 +1,257 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+header{
+    display: flex;
+    background-color:#0A5FC1;
+    height: 20vh;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 100%;
+}
+
+
+#logo{
+    width: 40vw;
+}
+
+#logo img{
+    width:100%;
+	margin-top:5vh;
+	padding-left: 5vw;
+}
+#icon-menu{
+	width:30vw;
+	justify-content: right;
+	height: 10vh;
+	margin-left: 30vw;
+}
+#icon-menu img{
+	width:100%;
+}
+
+
+nav{
+	position: absolute;
+	margin-top: 20vh;
+	width: 100vw;
+	background-color:#85BBFA;
+	display:none;
+}
+nav ul{
+	list-style: none;
+	
+}
+nav ul li{
+	padding:2vh 0 1vh 3vw;
+	border-bottom:1px solid #000;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+	
+}
+
+#busca{
+    display:block;
+    background-color: #fff;
+	border: 1px solid #fff;
+	border-radius:3vw;
+	height:5vh;
+	width:30vw;
+	margin-left: 35vw;
+}
+#busca h1{
+    
+    font-size: 18px;
+    color:#85BBFA;
+	padding-left: 6vw;
+	padding-top: 0.5vh;
+	justify-content:center;
+}
+main{
+	padding-top: 20vh;
+	min-height:85vh;
+	display:flex;
+	flex-wrap: wrap;
+}
+main div{
+	justify-content: center;
+	width: 100%;
+}
+main h1{
+	width: 100%;
+}
+
+#semana h1{
+	align-self: center;
+	color:#0A5FC1;
+	padding:3vh 0 0 15vw;
+	font-size:30px;
+}
+#semana div{
+	width: 70vw;
+	align-self: center;
+}
+#semana div img{
+	width: 100%;
+	margin:3vw 0 0 18vw;
+}
+#semana h2{
+	font-size:20px;
+	color:#7a7a7a;
+	margin-left:15vw;
+}
+#vendidos{
+	display:flex;
+	flex-wrap: wrap;
+}
+#hvendido{
+	align-self: center;
+	color:#0A5FC1;
+	padding:5vh 0 3vh 20vw;
+	font-size:30px;
+}
+#produto{
+	width:45vw;
+	padding:1vw;
+}
+#produto h1{
+	font-size:20px;
+	color:#0A5FC1;
+	padding:1vh 0 0 5vw;
+}
+#produto div img{
+	width:100%;
+}
+#produto h2{
+	font-size:15px;
+	color:#7a7a7a;
+	padding-left:5vw;
+}
+#masculino{
+	display:flex;
+	flex-wrap: wrap;
+}
+#hmasculino{
+	align-self: center;
+	color:#0A5FC1;
+	padding:5vh 0 3vh 30vw;
+	font-size:30px;
+}
+#feminino{
+	display:flex;
+	flex-wrap: wrap;
+}
+#hfeminino{
+	align-self: center;
+	color:#0A5FC1;
+	padding:5vh 0 3vh 30vw;
+	font-size:30px;
+}
+footer{
+	background-color: #0A5FC1;
+	height:10vh;
+	margin-top:5vh;
+}
+footer h1{
+	color:#fff;
+	padding:2vh 0 0 35vw;
+}
+
+
+
+@media (min-width:1080px){
+header{
+	display:flex;
+	flex-wrap: nowrap;
+	height:15vh;
+}
+#logo img{
+	margin:1vh 0 0 0;
+	padding:0 20vw 0 3vw;
+}
+nav{
+	display:block;
+	margin-top:0;
+	background-color:transparent;
+	padding:4vh 0 0 30vw;
+}
+nav ul li{
+	float:left;
+	border:none;
+}
+nav ul li a{
+	font-size:25px;
+}
+#icon-menu{
+	display:none;
+}
+#busca{
+	height:5vh;
+	width:15vw;
+	margin-left: 40vw;
+	margin-top: 4.5vh;
+}
+#busca h1{
+    font-size: 25px;
+	padding-left: 4vw;
+	padding-top: 0.7vh;
+}
+
+#semana h1{
+	padding:1vh 0 0 35vw;
+	font-size:50px;
+}
+#semana div{
+	width: 70vw;
+}
+#semana div img{
+	width: 50%;
+	margin:0 0 0 30vw;
+}
+#semana h2{
+	font-size:30px;
+	color:#7a7a7a;
+	margin-left:37.5vw;
+}
+#hvendido{
+	padding:5vh 0 5vh 39vw;
+	font-size:50px;
+}
+#produto{
+	width:20vw;
+	padding:1vw;
+}
+#produto h1{
+	font-size:30px;
+	color:#0A5FC1;
+	padding:1vh 0 0 4vw;
+}
+#produto div img{
+	width:100%;
+}
+#produto h2{
+	font-size:18px;
+	color:#7a7a7a;
+	padding-left:3vw;
+}
+#hmasculino{
+	padding:5vh 0 5vh 42vw;
+	font-size:50px;
+}
+#hfeminino{
+	padding:5vh 0 5vh 42vw;
+	font-size:50px;
+}
+footer h1{
+	padding:1.5vh 0 0 42vw;
+	font-size: 50px;
+}
+
+}

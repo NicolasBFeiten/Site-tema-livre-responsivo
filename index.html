@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Criação de Sites</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+    <body>
+        <header>
+            <div id="logo"><img src="imagens/logo.png" /></div>
+            <div id="icon-menu"><img src="imagens/iconmenu.png" /></div>
+            <nav>
+                <ul>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Masculino</a></li>
+                    <li><a href="">Feminino</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="busca"><h1>Busca...</h1></div>
+        </header>
+        <main>
+            <div id="semana">
+                <h1>Oferta da Semana</h1>
+                <div><img src="imagens/tenis1.jpg"/></div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+            </div>
+            <h1 id="hvendido">Mais Vendidos</h1>
+            <div id="vendidos">
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis2.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis3.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf1.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf2.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+            </div>
+            <h1 id="hmasculino">Masculino</h1>
+            <div id="masculino">
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis1.jpg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis2.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis3.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenis4.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+            </div>
+            <h1 id="hfeminino">Feminino</h1>
+            <div id="feminino">
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf1.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf2.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf3.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div id="produto">
+                    <h1>Lorem ipsum</h1>
+                    <div><img src="imagens/tenisf4.jpeg" /></div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1>Rodapé</h1>
+        </footer>
+    </body>
+    <script>
+		let nav= document.querySelector("nav")
+		let icon= document.querySelector ("#icon-menu")
+
+		icon.onclick=function(){
+			if(nav.style.display=="none")
+				nav.style.display="block"
+			else
+				nav.style.display="none"
+		}
+
+	</script>
+</html>
